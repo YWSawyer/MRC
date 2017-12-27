@@ -20,7 +20,14 @@
 
 - (void)dealloc {
     NSLog(@"person will be dealloc....");
+    [_name release];
+    [_sex release];
     [super dealloc];
+}
+
++ (instancetype)person {
+    Person *person = [[Person new] autorelease];
+    return person;
 }
 
 + (NSString *)description {

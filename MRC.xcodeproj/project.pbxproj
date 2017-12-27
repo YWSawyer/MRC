@@ -15,6 +15,8 @@
 		18A587121FD5354700DE16DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A587111FD5354700DE16DA /* main.m */; };
 		18A5871A1FD535CE00DE16DA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A587191FD535CE00DE16DA /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		18A587241FD69F1500DE16DA /* student.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A587231FD69F1500DE16DA /* student.m */; };
+		18BA70AD1FF3750D00ADC8AC /* ARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA70AC1FF3750D00ADC8AC /* ARCViewController.m */; };
+		18BA70B01FF376B400ADC8AC /* ARCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA70AF1FF376B400ADC8AC /* ARCPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		18A587191FD535CE00DE16DA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		18A587221FD69F1500DE16DA /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
 		18A587231FD69F1500DE16DA /* student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = student.m; sourceTree = "<group>"; };
+		18BA70AB1FF3750D00ADC8AC /* ARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCViewController.h; sourceTree = "<group>"; };
+		18BA70AC1FF3750D00ADC8AC /* ARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCViewController.m; sourceTree = "<group>"; };
+		18BA70AE1FF376B400ADC8AC /* ARCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCPerson.h; sourceTree = "<group>"; };
+		18BA70AF1FF376B400ADC8AC /* ARCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 				18A587191FD535CE00DE16DA /* Person.m */,
 				18A587221FD69F1500DE16DA /* student.h */,
 				18A587231FD69F1500DE16DA /* student.m */,
+				18BA70AB1FF3750D00ADC8AC /* ARCViewController.h */,
+				18BA70AC1FF3750D00ADC8AC /* ARCViewController.m */,
+				18BA70AE1FF376B400ADC8AC /* ARCPerson.h */,
+				18BA70AF1FF376B400ADC8AC /* ARCPerson.m */,
 			);
 			path = MRC;
 			sourceTree = "<group>";
@@ -155,7 +165,9 @@
 				18A587241FD69F1500DE16DA /* student.m in Sources */,
 				18A587071FD5354700DE16DA /* ViewController.m in Sources */,
 				18A587121FD5354700DE16DA /* main.m in Sources */,
+				18BA70AD1FF3750D00ADC8AC /* ARCViewController.m in Sources */,
 				18A5871A1FD535CE00DE16DA /* Person.m in Sources */,
+				18BA70B01FF376B400ADC8AC /* ARCPerson.m in Sources */,
 				18A587041FD5354700DE16DA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

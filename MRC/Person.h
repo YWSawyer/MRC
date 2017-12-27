@@ -10,6 +10,9 @@
 
 @interface Person : NSObject
 
++ (instancetype)person;
 
+@property (retain, nonatomic) NSString *name;
+@property (retain, nonatomic) NSString *sex;
 
 @end
